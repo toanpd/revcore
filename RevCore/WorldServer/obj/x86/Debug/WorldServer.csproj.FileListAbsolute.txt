@@ -1,0 +1,12 @@
+D:\Project\RevCore\trunk\SWorking\WorldServer.exe.config
+D:\Project\RevCore\trunk\RevCore\WorldServer\obj\x86\Debug\WorldServer.csprojResolveAssemblyReference.cache
+D:\Project\RevCore\trunk\SWorking\NLog.config
+D:\Project\RevCore\trunk\SWorking\Config\Custom.ini
+D:\Project\RevCore\trunk\SWorking\Config\Rate.ini
+D:\Project\RevCore\trunk\SWorking\Scripts\Welcome.lua
+D:\Project\RevCore\trunk\SWorking\Config\SysMessage.ini
+D:\Project\RevCore\trunk\SWorking\WorldServer.exe
+D:\Project\RevCore\trunk\SWorking\WorldServer.pdb
+D:\Project\RevCore\trunk\RevCore\WorldServer\obj\x86\Debug\WorldServer.exe
+D:\Project\RevCore\trunk\RevCore\WorldServer\obj\x86\Debug\WorldServer.pdb
+D:\Project\RevCore\trunk\SWorking\Scripts\UseItemTrigGer.lua

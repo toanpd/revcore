@@ -1,0 +1,12 @@
+D:\Project\RevCore\trunk\SWorking\ExpEditor.exe
+D:\Project\RevCore\trunk\SWorking\ExpEditor.pdb
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\ExpEditor.csprojResolveAssemblyReference.cache
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\MainWindow.baml
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\MainWindow.g.cs
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\App.g.cs
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\ExpEditor_MarkupCompile.cache
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\ExpEditor.g.resources
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\ExpEditor.Properties.Resources.resources
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\ExpEditor.csproj.GenerateResource.Cache
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\ExpEditor.exe
+D:\Project\RevCore\trunk\RevCore\ExpEditor\obj\Debug\ExpEditor.pdb

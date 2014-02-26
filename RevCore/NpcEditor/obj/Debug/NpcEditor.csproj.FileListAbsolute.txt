@@ -1,0 +1,13 @@
+D:\Project\RevCore\trunk\SWorking\NLog.config
+D:\Project\RevCore\trunk\SWorking\NpcEditor.exe
+D:\Project\RevCore\trunk\SWorking\NpcEditor.pdb
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\NpcEditor.csprojResolveAssemblyReference.cache
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\MainWindow.baml
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\MainWindow.g.cs
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\App.g.cs
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\NpcEditor_MarkupCompile.cache
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\NpcEditor.g.resources
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\NpcEditor.Properties.Resources.resources
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\NpcEditor.csproj.GenerateResource.Cache
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\NpcEditor.exe
+D:\Project\RevCore\trunk\RevCore\NpcEditor\obj\Debug\NpcEditor.pdb

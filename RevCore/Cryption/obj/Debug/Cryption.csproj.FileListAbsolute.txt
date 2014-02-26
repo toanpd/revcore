@@ -1,0 +1,4 @@
+D:\Project\RevCore\trunk\RevCore\Cryption\bin\Debug\Cryption.dll
+D:\Project\RevCore\trunk\RevCore\Cryption\bin\Debug\Cryption.pdb
+D:\Project\RevCore\trunk\RevCore\Cryption\obj\Debug\Cryption.dll
+D:\Project\RevCore\trunk\RevCore\Cryption\obj\Debug\Cryption.pdb

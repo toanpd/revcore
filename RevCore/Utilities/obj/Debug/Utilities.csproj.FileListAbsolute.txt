@@ -1,0 +1,6 @@
+D:\Project\RevCore\trunk\SWorking\NLog.config
+D:\Project\RevCore\trunk\SWorking\Utilities.dll
+D:\Project\RevCore\trunk\SWorking\Utilities.pdb
+D:\Project\RevCore\trunk\RevCore\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+D:\Project\RevCore\trunk\RevCore\Utilities\obj\Debug\Utilities.dll
+D:\Project\RevCore\trunk\RevCore\Utilities\obj\Debug\Utilities.pdb

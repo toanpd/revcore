@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PublicDbModelStoreContainer" CdmEntityContainer="PublicDbEntities">
+    <EntitySetMapping Name="TBL_XWWL_BOSSDROP">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_BOSSDROP">
+        <MappingFragment StoreEntitySet="TBL_XWWL_BOSSDROP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FLD_LEVEL1" ColumnName="FLD_LEVEL1" />
+          <ScalarProperty Name="FLD_LEVEL2" ColumnName="FLD_LEVEL2" />
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_MAGIC0" ColumnName="FLD_MAGIC0" />
+          <ScalarProperty Name="FLD_MAGIC1" ColumnName="FLD_MAGIC1" />
+          <ScalarProperty Name="FLD_MAGIC2" ColumnName="FLD_MAGIC2" />
+          <ScalarProperty Name="FLD_MAGIC3" ColumnName="FLD_MAGIC3" />
+          <ScalarProperty Name="FLD_MAGIC4" ColumnName="FLD_MAGIC4" />
+          <ScalarProperty Name="FLD_PP" ColumnName="FLD_PP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_DROP">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_DROP">
+        <MappingFragment StoreEntitySet="TBL_XWWL_DROP">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FLD_LEVEL1" ColumnName="FLD_LEVEL1" />
+          <ScalarProperty Name="FLD_LEVEL2" ColumnName="FLD_LEVEL2" />
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_MAGIC0" ColumnName="FLD_MAGIC0" />
+          <ScalarProperty Name="FLD_MAGIC1" ColumnName="FLD_MAGIC1" />
+          <ScalarProperty Name="FLD_MAGIC2" ColumnName="FLD_MAGIC2" />
+          <ScalarProperty Name="FLD_MAGIC3" ColumnName="FLD_MAGIC3" />
+          <ScalarProperty Name="FLD_MAGIC4" ColumnName="FLD_MAGIC4" />
+          <ScalarProperty Name="FLD_PP" ColumnName="FLD_PP" />
+          <ScalarProperty Name="FLD_SUNX" ColumnName="FLD_SUNX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_DROP_GS">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_DROP_GS">
+        <MappingFragment StoreEntitySet="TBL_XWWL_DROP_GS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FLD_LEVEL1" ColumnName="FLD_LEVEL1" />
+          <ScalarProperty Name="FLD_LEVEL2" ColumnName="FLD_LEVEL2" />
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_MAGIC0" ColumnName="FLD_MAGIC0" />
+          <ScalarProperty Name="FLD_MAGIC1" ColumnName="FLD_MAGIC1" />
+          <ScalarProperty Name="FLD_MAGIC2" ColumnName="FLD_MAGIC2" />
+          <ScalarProperty Name="FLD_MAGIC3" ColumnName="FLD_MAGIC3" />
+          <ScalarProperty Name="FLD_MAGIC4" ColumnName="FLD_MAGIC4" />
+          <ScalarProperty Name="FLD_PP" ColumnName="FLD_PP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_Gg">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_Gg">
+        <MappingFragment StoreEntitySet="TBL_XWWL_Gg">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="txt" ColumnName="txt" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_ITEM">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_ITEM">
+        <MappingFragment StoreEntitySet="TBL_XWWL_ITEM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_QUESTITEM" ColumnName="FLD_QUESTITEM" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_NJ" ColumnName="FLD_NJ" />
+          <ScalarProperty Name="FLD_RESIDE1" ColumnName="FLD_RESIDE1" />
+          <ScalarProperty Name="FLD_RESIDE2" ColumnName="FLD_RESIDE2" />
+          <ScalarProperty Name="FLD_SEX" ColumnName="FLD_SEX" />
+          <ScalarProperty Name="FLD_DF" ColumnName="FLD_DF" />
+          <ScalarProperty Name="FLD_AT1" ColumnName="FLD_AT1" />
+          <ScalarProperty Name="FLD_AT2" ColumnName="FLD_AT2" />
+          <ScalarProperty Name="FLD_LEVEL" ColumnName="FLD_LEVEL" />
+          <ScalarProperty Name="FLD_JOB_LEVEL" ColumnName="FLD_JOB_LEVEL" />
+          <ScalarProperty Name="FLD_ZX" ColumnName="FLD_ZX" />
+          <ScalarProperty Name="FLD_EL" ColumnName="FLD_EL" />
+          <ScalarProperty Name="FLD_WX" ColumnName="FLD_WX" />
+          <ScalarProperty Name="FLD_WXJD" ColumnName="FLD_WXJD" />
+          <ScalarProperty Name="FLD_MONEY" ColumnName="FLD_MONEY" />
+          <ScalarProperty Name="FLD_WEIGHT" ColumnName="FLD_WEIGHT" />
+          <ScalarProperty Name="FLD_TYPE" ColumnName="FLD_TYPE" />
+          <ScalarProperty Name="FLD_MAGIC1" ColumnName="FLD_MAGIC1" />
+          <ScalarProperty Name="FLD_MAGIC2" ColumnName="FLD_MAGIC2" />
+          <ScalarProperty Name="FLD_MAGIC3" ColumnName="FLD_MAGIC3" />
+          <ScalarProperty Name="FLD_MAGIC4" ColumnName="FLD_MAGIC4" />
+          <ScalarProperty Name="FLD_MAGIC5" ColumnName="FLD_MAGIC5" />
+          <ScalarProperty Name="FLD_DES" ColumnName="FLD_DES" />
+          <ScalarProperty Name="FLD_SIDE" ColumnName="FLD_SIDE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_KONGFU">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_KONGFU">
+        <MappingFragment StoreEntitySet="TBL_XWWL_KONGFU">
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_ZX" ColumnName="FLD_ZX" />
+          <ScalarProperty Name="FLD_JOB" ColumnName="FLD_JOB" />
+          <ScalarProperty Name="FLD_JOBLEVEL" ColumnName="FLD_JOBLEVEL" />
+          <ScalarProperty Name="FLD_LEVEL" ColumnName="FLD_LEVEL" />
+          <ScalarProperty Name="FLD_MP" ColumnName="FLD_MP" />
+          <ScalarProperty Name="FLD_NEEDEXP" ColumnName="FLD_NEEDEXP" />
+          <ScalarProperty Name="FLD_AT" ColumnName="FLD_AT" />
+          <ScalarProperty Name="FLD_TYPE" ColumnName="FLD_TYPE" />
+          <ScalarProperty Name="FLD_EFFERT" ColumnName="FLD_EFFERT" />
+          <ScalarProperty Name="FLD_INDEX" ColumnName="FLD_INDEX" />
+          <ScalarProperty Name="FLD_攻击数量" ColumnName="FLD_攻击数量" />
+          <ScalarProperty Name="FLD_武功类型" ColumnName="FLD_武功类型" />
+          <ScalarProperty Name="FLD_每级加MP" ColumnName="FLD_每级加MP" />
+          <ScalarProperty Name="FLD_每级加历练" ColumnName="FLD_每级加历练" />
+          <ScalarProperty Name="FLD_每级加危害" ColumnName="FLD_每级加危害" />
+          <ScalarProperty Name="FLD_每级武功点数" ColumnName="FLD_每级武功点数" />
+          <ScalarProperty Name="FLD_TIME" ColumnName="FLD_TIME" />
+          <ScalarProperty Name="FLD_武功最高级别" ColumnName="FLD_武功最高级别" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_MAP">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_MAP">
+        <MappingFragment StoreEntitySet="TBL_XWWL_MAP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FLD_MID" ColumnName="FLD_MID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_FILE" ColumnName="FLD_FILE" />
+          <ScalarProperty Name="X" ColumnName="X" />
+          <ScalarProperty Name="Y" ColumnName="Y" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_MONSTER">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_MONSTER">
+        <MappingFragment StoreEntitySet="TBL_XWWL_MONSTER">
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_LEVEL" ColumnName="FLD_LEVEL" />
+          <ScalarProperty Name="FLD_HP" ColumnName="FLD_HP" />
+          <ScalarProperty Name="FLD_BOSS" ColumnName="FLD_BOSS" />
+          <ScalarProperty Name="FLD_AUTO" ColumnName="FLD_AUTO" />
+          <ScalarProperty Name="FLD_AT" ColumnName="FLD_AT" />
+          <ScalarProperty Name="FLD_EXP" ColumnName="FLD_EXP" />
+          <ScalarProperty Name="FLD_DF" ColumnName="FLD_DF" />
+          <ScalarProperty Name="FLD_NPC" ColumnName="FLD_NPC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_NPC">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_NPC">
+        <MappingFragment StoreEntitySet="TBL_XWWL_NPC">
+          <ScalarProperty Name="FLD_INDEX" ColumnName="FLD_INDEX" />
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_X" ColumnName="FLD_X" />
+          <ScalarProperty Name="FLD_Z" ColumnName="FLD_Z" />
+          <ScalarProperty Name="FLD_Y" ColumnName="FLD_Y" />
+          <ScalarProperty Name="FLD_FACE0" ColumnName="FLD_FACE0" />
+          <ScalarProperty Name="FLD_FACE" ColumnName="FLD_FACE" />
+          <ScalarProperty Name="FLD_MID" ColumnName="FLD_MID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_HP" ColumnName="FLD_HP" />
+          <ScalarProperty Name="FLD_AT" ColumnName="FLD_AT" />
+          <ScalarProperty Name="FLD_DF" ColumnName="FLD_DF" />
+          <ScalarProperty Name="FLD_NPC" ColumnName="FLD_NPC" />
+          <ScalarProperty Name="FLD_NEWTIME" ColumnName="FLD_NEWTIME" />
+          <ScalarProperty Name="FLD_LEVEL" ColumnName="FLD_LEVEL" />
+          <ScalarProperty Name="FLD_EXP" ColumnName="FLD_EXP" />
+          <ScalarProperty Name="FLD_AUTO" ColumnName="FLD_AUTO" />
+          <ScalarProperty Name="FLD_BOSS" ColumnName="FLD_BOSS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_NPC_SL">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_NPC_SL">
+        <MappingFragment StoreEntitySet="TBL_XWWL_NPC_SL">
+          <ScalarProperty Name="FLD_INDEX" ColumnName="FLD_INDEX" />
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_X" ColumnName="FLD_X" />
+          <ScalarProperty Name="FLD_Z" ColumnName="FLD_Z" />
+          <ScalarProperty Name="FLD_Y" ColumnName="FLD_Y" />
+          <ScalarProperty Name="FLD_FACE0" ColumnName="FLD_FACE0" />
+          <ScalarProperty Name="FLD_FACE" ColumnName="FLD_FACE" />
+          <ScalarProperty Name="FLD_MID" ColumnName="FLD_MID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_HP" ColumnName="FLD_HP" />
+          <ScalarProperty Name="FLD_AT" ColumnName="FLD_AT" />
+          <ScalarProperty Name="FLD_DF" ColumnName="FLD_DF" />
+          <ScalarProperty Name="FLD_NPC" ColumnName="FLD_NPC" />
+          <ScalarProperty Name="FLD_NEWTIME" ColumnName="FLD_NEWTIME" />
+          <ScalarProperty Name="FLD_LEVEL" ColumnName="FLD_LEVEL" />
+          <ScalarProperty Name="FLD_EXP" ColumnName="FLD_EXP" />
+          <ScalarProperty Name="FLD_AUTO" ColumnName="FLD_AUTO" />
+          <ScalarProperty Name="FLD_BOSS" ColumnName="FLD_BOSS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_OPEN">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_OPEN">
+        <MappingFragment StoreEntitySet="TBL_XWWL_OPEN">
+          <ScalarProperty Name="FLD_INDEX" ColumnName="FLD_INDEX" />
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_NAME" ColumnName="FLD_NAME" />
+          <ScalarProperty Name="FLD_PIDX" ColumnName="FLD_PIDX" />
+          <ScalarProperty Name="FLD_NAMEX" ColumnName="FLD_NAMEX" />
+          <ScalarProperty Name="FLD_NUMBER" ColumnName="FLD_NUMBER" />
+          <ScalarProperty Name="FLD_MAGIC1" ColumnName="FLD_MAGIC1" />
+          <ScalarProperty Name="FLD_MAGIC2" ColumnName="FLD_MAGIC2" />
+          <ScalarProperty Name="FLD_MAGIC3" ColumnName="FLD_MAGIC3" />
+          <ScalarProperty Name="FLD_MAGIC4" ColumnName="FLD_MAGIC4" />
+          <ScalarProperty Name="FLD_MAGIC5" ColumnName="FLD_MAGIC5" />
+          <ScalarProperty Name="FLD_FJ_觉醒" ColumnName="FLD_FJ_觉醒" />
+          <ScalarProperty Name="FLD_FJ_进化" ColumnName="FLD_FJ_进化" />
+          <ScalarProperty Name="FLD_FJ_中级附魂" ColumnName="FLD_FJ_中级附魂" />
+          <ScalarProperty Name="FLD_BD" ColumnName="FLD_BD" />
+          <ScalarProperty Name="FLD_DAYS" ColumnName="FLD_DAYS" />
+          <ScalarProperty Name="FLD_PP" ColumnName="FLD_PP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_SELL">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_SELL">
+        <MappingFragment StoreEntitySet="TBL_XWWL_SELL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FLD_NPCNAME" ColumnName="FLD_NPCNAME" />
+          <ScalarProperty Name="FLD_NID" ColumnName="FLD_NID" />
+          <ScalarProperty Name="FLD_INDEX" ColumnName="FLD_INDEX" />
+          <ScalarProperty Name="FLD_PID" ColumnName="FLD_PID" />
+          <ScalarProperty Name="FLD_MONEY" ColumnName="FLD_MONEY" />
+          <ScalarProperty Name="FLD_MAGIC0" ColumnName="FLD_MAGIC0" />
+          <ScalarProperty Name="FLD_MAGIC1" ColumnName="FLD_MAGIC1" />
+          <ScalarProperty Name="FLD_MAGIC2" ColumnName="FLD_MAGIC2" />
+          <ScalarProperty Name="FLD_MAGIC3" ColumnName="FLD_MAGIC3" />
+          <ScalarProperty Name="FLD_MAGIC4" ColumnName="FLD_MAGIC4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_XWWL_VOME">
+      <EntityTypeMapping TypeName="PublicDbModel.TBL_XWWL_VOME">
+        <MappingFragment StoreEntitySet="TBL_XWWL_VOME">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="map" ColumnName="map" />
+          <ScalarProperty Name="x" ColumnName="x" />
+          <ScalarProperty Name="y" ColumnName="y" />
+          <ScalarProperty Name="z" ColumnName="z" />
+          <ScalarProperty Name="tomap" ColumnName="tomap" />
+          <ScalarProperty Name="tox" ColumnName="tox" />
+          <ScalarProperty Name="toy" ColumnName="toy" />
+          <ScalarProperty Name="toz" ColumnName="toz" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="XWWL_kill">
+      <EntityTypeMapping TypeName="PublicDbModel.XWWL_kill">
+        <MappingFragment StoreEntitySet="XWWL_kill">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="txt" ColumnName="txt" />
+          <ScalarProperty Name="sffh" ColumnName="sffh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="等级奖励">
+      <EntityTypeMapping TypeName="PublicDbModel.等级奖励">
+        <MappingFragment StoreEntitySet="等级奖励">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="级别" ColumnName="级别" />
+          <ScalarProperty Name="武勋" ColumnName="武勋" />
+          <ScalarProperty Name="元宝" ColumnName="元宝" />
+          <ScalarProperty Name="金钱" ColumnName="金钱" />
+          <ScalarProperty Name="生命" ColumnName="生命" />
+          <ScalarProperty Name="攻击" ColumnName="攻击" />
+          <ScalarProperty Name="防御" ColumnName="防御" />
+          <ScalarProperty Name="回避" ColumnName="回避" />
+          <ScalarProperty Name="命中" ColumnName="命中" />
+          <ScalarProperty Name="内功" ColumnName="内功" />
+          <ScalarProperty Name="套装ID" ColumnName="套装ID" />
+          <ScalarProperty Name="单件物品" ColumnName="单件物品" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="升天气功">
+      <EntityTypeMapping TypeName="PublicDbModel.升天气功">
+        <MappingFragment StoreEntitySet="升天气功">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="气功ID" ColumnName="气功ID" />
+          <ScalarProperty Name="物品ID" ColumnName="物品ID" />
+          <ScalarProperty Name="气功名" ColumnName="气功名" />
+          <ScalarProperty Name="人物职业1" ColumnName="人物职业1" />
+          <ScalarProperty Name="人物职业2" ColumnName="人物职业2" />
+          <ScalarProperty Name="人物职业3" ColumnName="人物职业3" />
+          <ScalarProperty Name="人物职业4" ColumnName="人物职业4" />
+          <ScalarProperty Name="人物职业5" ColumnName="人物职业5" />
+          <ScalarProperty Name="人物职业6" ColumnName="人物职业6" />
+          <ScalarProperty Name="人物职业7" ColumnName="人物职业7" />
+          <ScalarProperty Name="人物职业8" ColumnName="人物职业8" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="石头属性效果">
+      <EntityTypeMapping TypeName="PublicDbModel.石头属性效果">
+        <MappingFragment StoreEntitySet="石头属性效果">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FLD_ID" ColumnName="FLD_ID" />
+          <ScalarProperty Name="FLD_百分比" ColumnName="FLD_百分比" />
+          <ScalarProperty Name="说明" ColumnName="说明" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="武勋BUFF增幅">
+      <EntityTypeMapping TypeName="PublicDbModel.武勋BUFF增幅">
+        <MappingFragment StoreEntitySet="武勋BUFF增幅">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FLD_WXLEVEL" ColumnName="FLD_WXLEVEL" />
+          <ScalarProperty Name="FLD_武勋量" ColumnName="FLD_武勋量" />
+          <ScalarProperty Name="FLD_HP" ColumnName="FLD_HP" />
+          <ScalarProperty Name="FLD_AT" ColumnName="FLD_AT" />
+          <ScalarProperty Name="FLD_DF" ColumnName="FLD_DF" />
+          <ScalarProperty Name="FLD_HB" ColumnName="FLD_HB" />
+          <ScalarProperty Name="FLD_MP" ColumnName="FLD_MP" />
+          <ScalarProperty Name="FLD_MZ" ColumnName="FLD_MZ" />
+          <ScalarProperty Name="FLD_所有气功增加" ColumnName="FLD_所有气功增加" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="物品兑换">
+      <EntityTypeMapping TypeName="PublicDbModel.物品兑换">
+        <MappingFragment StoreEntitySet="物品兑换">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="需要物品" ColumnName="需要物品" />
+          <ScalarProperty Name="武勋" ColumnName="武勋" />
+          <ScalarProperty Name="元宝" ColumnName="元宝" />
+          <ScalarProperty Name="金钱" ColumnName="金钱" />
+          <ScalarProperty Name="生命" ColumnName="生命" />
+          <ScalarProperty Name="攻击" ColumnName="攻击" />
+          <ScalarProperty Name="防御" ColumnName="防御" />
+          <ScalarProperty Name="回避" ColumnName="回避" />
+          <ScalarProperty Name="命中" ColumnName="命中" />
+          <ScalarProperty Name="内功" ColumnName="内功" />
+          <ScalarProperty Name="套装ID" ColumnName="套装ID" />
+          <ScalarProperty Name="单件物品" ColumnName="单件物品" />
+          <ScalarProperty Name="说明" ColumnName="说明" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="制作物品列表">
+      <EntityTypeMapping TypeName="PublicDbModel.制作物品列表">
+        <MappingFragment StoreEntitySet="制作物品列表">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="物品ID" ColumnName="物品ID" />
+          <ScalarProperty Name="物品名" ColumnName="物品名" />
+          <ScalarProperty Name="物品数量" ColumnName="物品数量" />
+          <ScalarProperty Name="制作类型" ColumnName="制作类型" />
+          <ScalarProperty Name="制作等级" ColumnName="制作等级" />
+          <ScalarProperty Name="需要物品" ColumnName="需要物品" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="装备检测">
+      <EntityTypeMapping TypeName="PublicDbModel.装备检测">
+        <MappingFragment StoreEntitySet="装备检测">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="物品类型" ColumnName="物品类型" />
+          <ScalarProperty Name="物品最高攻击值" ColumnName="物品最高攻击值" />
+          <ScalarProperty Name="物品最高防御值" ColumnName="物品最高防御值" />
+          <ScalarProperty Name="物品最高生命值" ColumnName="物品最高生命值" />
+          <ScalarProperty Name="物品最高内功值" ColumnName="物品最高内功值" />
+          <ScalarProperty Name="物品最高命中值" ColumnName="物品最高命中值" />
+          <ScalarProperty Name="物品最高回避值" ColumnName="物品最高回避值" />
+          <ScalarProperty Name="物品最高武功值" ColumnName="物品最高武功值" />
+          <ScalarProperty Name="物品最高气功值" ColumnName="物品最高气功值" />
+          <ScalarProperty Name="物品最高附魂值" ColumnName="物品最高附魂值" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="自定义转职属性">
+      <EntityTypeMapping TypeName="PublicDbModel.自定义转职属性">
+        <MappingFragment StoreEntitySet="自定义转职属性">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FLD_JOB_LEVEL" ColumnName="FLD_JOB_LEVEL" />
+          <ScalarProperty Name="FLD_AT" ColumnName="FLD_AT" />
+          <ScalarProperty Name="FLD_DF" ColumnName="FLD_DF" />
+          <ScalarProperty Name="FLD_HP" ColumnName="FLD_HP" />
+          <ScalarProperty Name="FLD_MP" ColumnName="FLD_MP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,11 @@
+D:\Project\RevCore\trunk\SWorking\DropsEditor.exe
+D:\Project\RevCore\trunk\SWorking\DropsEditor.pdb
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\MainWindow.baml
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\MainWindow.g.cs
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\App.g.cs
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\DropsEditor_MarkupCompile.cache
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\DropsEditor.g.resources
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\DropsEditor.Properties.Resources.resources
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\DropsEditor.csproj.GenerateResource.Cache
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\DropsEditor.exe
+D:\Project\RevCore\trunk\RevCore\DropsEditor\obj\Debug\DropsEditor.pdb

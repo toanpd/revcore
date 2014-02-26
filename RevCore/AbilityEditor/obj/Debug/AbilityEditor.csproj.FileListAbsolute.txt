@@ -1,0 +1,12 @@
+D:\Project\RevCore\trunk\SWorking\AbilityEditor.exe
+D:\Project\RevCore\trunk\SWorking\AbilityEditor.pdb
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\AbilityEditor.csprojResolveAssemblyReference.cache
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\MainWindow.baml
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\MainWindow.g.cs
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\App.g.cs
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\AbilityEditor_MarkupCompile.cache
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\AbilityEditor.g.resources
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\AbilityEditor.Properties.Resources.resources
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\AbilityEditor.csproj.GenerateResource.Cache
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\AbilityEditor.exe
+D:\Project\RevCore\trunk\RevCore\AbilityEditor\obj\Debug\AbilityEditor.pdb

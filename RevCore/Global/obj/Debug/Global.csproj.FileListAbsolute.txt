@@ -1,0 +1,6 @@
+D:\Project\RevCore\trunk\SWorking\NLog.config
+D:\Project\RevCore\trunk\SWorking\Global.dll
+D:\Project\RevCore\trunk\SWorking\Global.pdb
+D:\Project\RevCore\trunk\RevCore\Global\obj\Debug\Global.csprojResolveAssemblyReference.cache
+D:\Project\RevCore\trunk\RevCore\Global\obj\Debug\Global.dll
+D:\Project\RevCore\trunk\RevCore\Global\obj\Debug\Global.pdb

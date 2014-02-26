@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PublicDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TBL_XWWL_BOSSDROP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_LEVEL1" Type="Int32" />
+    <Property Name="FLD_LEVEL2" Type="Int32" />
+    <Property Name="FLD_PID" Type="Int32" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FLD_MAGIC0" Type="Int32" />
+    <Property Name="FLD_MAGIC1" Type="Int32" />
+    <Property Name="FLD_MAGIC2" Type="Int32" />
+    <Property Name="FLD_MAGIC3" Type="Int32" />
+    <Property Name="FLD_MAGIC4" Type="Int32" />
+    <Property Name="FLD_PP" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_DROP">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="FLD_LEVEL1" />
+      <PropertyRef Name="FLD_LEVEL2" />
+      <PropertyRef Name="FLD_PID" />
+      <PropertyRef Name="FLD_NAME" />
+      <PropertyRef Name="FLD_MAGIC0" />
+      <PropertyRef Name="FLD_MAGIC1" />
+      <PropertyRef Name="FLD_MAGIC2" />
+      <PropertyRef Name="FLD_MAGIC3" />
+      <PropertyRef Name="FLD_MAGIC4" />
+      <PropertyRef Name="FLD_PP" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="FLD_LEVEL1" Type="Int32" Nullable="false" />
+    <Property Name="FLD_LEVEL2" Type="Int32" Nullable="false" />
+    <Property Name="FLD_PID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FLD_MAGIC0" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC1" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC2" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC3" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC4" Type="Int32" Nullable="false" />
+    <Property Name="FLD_PP" Type="Int32" Nullable="false" />
+    <Property Name="FLD_SUNX" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_DROP_GS">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="FLD_LEVEL1" />
+      <PropertyRef Name="FLD_LEVEL2" />
+      <PropertyRef Name="FLD_PID" />
+      <PropertyRef Name="FLD_NAME" />
+      <PropertyRef Name="FLD_MAGIC0" />
+      <PropertyRef Name="FLD_MAGIC1" />
+      <PropertyRef Name="FLD_MAGIC2" />
+      <PropertyRef Name="FLD_MAGIC3" />
+      <PropertyRef Name="FLD_MAGIC4" />
+      <PropertyRef Name="FLD_PP" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_LEVEL1" Type="Int32" Nullable="false" />
+    <Property Name="FLD_LEVEL2" Type="Int32" Nullable="false" />
+    <Property Name="FLD_PID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FLD_MAGIC0" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC1" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC2" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC3" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC4" Type="Int32" Nullable="false" />
+    <Property Name="FLD_PP" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_Gg">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="txt" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_ITEM">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="FLD_PID" />
+      <PropertyRef Name="FLD_QUESTITEM" />
+      <PropertyRef Name="FLD_NAME" />
+      <PropertyRef Name="FLD_NJ" />
+      <PropertyRef Name="FLD_RESIDE1" />
+      <PropertyRef Name="FLD_RESIDE2" />
+      <PropertyRef Name="FLD_SEX" />
+      <PropertyRef Name="FLD_DF" />
+      <PropertyRef Name="FLD_AT1" />
+      <PropertyRef Name="FLD_AT2" />
+      <PropertyRef Name="FLD_LEVEL" />
+      <PropertyRef Name="FLD_JOB_LEVEL" />
+      <PropertyRef Name="FLD_ZX" />
+      <PropertyRef Name="FLD_MONEY" />
+      <PropertyRef Name="FLD_WEIGHT" />
+      <PropertyRef Name="FLD_TYPE" />
+      <PropertyRef Name="FLD_MAGIC1" />
+      <PropertyRef Name="FLD_MAGIC2" />
+      <PropertyRef Name="FLD_MAGIC3" />
+      <PropertyRef Name="FLD_MAGIC4" />
+      <PropertyRef Name="FLD_MAGIC5" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_PID" Type="Int64" Nullable="false" />
+    <Property Name="FLD_QUESTITEM" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FLD_NJ" Type="Int32" Nullable="false" />
+    <Property Name="FLD_RESIDE1" Type="Int32" Nullable="false" />
+    <Property Name="FLD_RESIDE2" Type="Int32" Nullable="false" />
+    <Property Name="FLD_SEX" Type="Int32" Nullable="false" />
+    <Property Name="FLD_DF" Type="Int32" Nullable="false" />
+    <Property Name="FLD_AT1" Type="Int32" Nullable="false" />
+    <Property Name="FLD_AT2" Type="Int32" Nullable="false" />
+    <Property Name="FLD_LEVEL" Type="Int32" Nullable="false" />
+    <Property Name="FLD_JOB_LEVEL" Type="Int32" Nullable="false" />
+    <Property Name="FLD_ZX" Type="Int32" Nullable="false" />
+    <Property Name="FLD_EL" Type="Int32" />
+    <Property Name="FLD_WX" Type="Int32" />
+    <Property Name="FLD_WXJD" Type="Int32" />
+    <Property Name="FLD_MONEY" Type="Int32" Nullable="false" />
+    <Property Name="FLD_WEIGHT" Type="Int32" Nullable="false" />
+    <Property Name="FLD_TYPE" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC1" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC2" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC3" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC4" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC5" Type="Int32" Nullable="false" />
+    <Property Name="FLD_DES" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Name="FLD_SIDE" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_KONGFU">
+    <Key>
+      <PropertyRef Name="FLD_PID" />
+      <PropertyRef Name="FLD_武功最高级别" />
+    </Key>
+    <Property Name="FLD_PID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FLD_ZX" Type="Int32" />
+    <Property Name="FLD_JOB" Type="Int32" />
+    <Property Name="FLD_JOBLEVEL" Type="Int32" />
+    <Property Name="FLD_LEVEL" Type="Int32" />
+    <Property Name="FLD_MP" Type="Int32" />
+    <Property Name="FLD_NEEDEXP" Type="Int32" />
+    <Property Name="FLD_AT" Type="Int32" />
+    <Property Name="FLD_TYPE" Type="Int32" />
+    <Property Name="FLD_EFFERT" Type="Int32" />
+    <Property Name="FLD_INDEX" Type="Int32" />
+    <Property Name="FLD_攻击数量" Type="Int32" />
+    <Property Name="FLD_武功类型" Type="Int32" />
+    <Property Name="FLD_每级加MP" Type="Int32" />
+    <Property Name="FLD_每级加历练" Type="Int32" />
+    <Property Name="FLD_每级加危害" Type="Int32" />
+    <Property Name="FLD_每级武功点数" Type="Int32" />
+    <Property Name="FLD_TIME" Type="Int32" />
+    <Property Name="FLD_武功最高级别" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_MAP">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="FLD_MID" />
+      <PropertyRef Name="FLD_NAME" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FLD_FILE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="X" Type="Double" />
+    <Property Name="Y" Type="Double" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_MONSTER">
+    <Key>
+      <PropertyRef Name="FLD_PID" />
+      <PropertyRef Name="FLD_NAME" />
+      <PropertyRef Name="FLD_LEVEL" />
+      <PropertyRef Name="FLD_HP" />
+    </Key>
+    <Property Name="FLD_PID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FLD_LEVEL" Type="Int32" Nullable="false" />
+    <Property Name="FLD_HP" Type="Int32" Nullable="false" />
+    <Property Name="FLD_BOSS" Type="Int32" />
+    <Property Name="FLD_AUTO" Type="Int32" />
+    <Property Name="FLD_AT" Type="Int32" />
+    <Property Name="FLD_EXP" Type="Int32" />
+    <Property Name="FLD_DF" Type="Int32" />
+    <Property Name="FLD_NPC" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_NPC">
+    <Key>
+      <PropertyRef Name="FLD_INDEX" />
+      <PropertyRef Name="FLD_PID" />
+      <PropertyRef Name="FLD_X" />
+      <PropertyRef Name="FLD_Z" />
+      <PropertyRef Name="FLD_Y" />
+      <PropertyRef Name="FLD_FACE0" />
+      <PropertyRef Name="FLD_FACE" />
+      <PropertyRef Name="FLD_MID" />
+      <PropertyRef Name="FLD_BOSS" />
+    </Key>
+    <Property Name="FLD_INDEX" Type="Int32" Nullable="false" />
+    <Property Name="FLD_PID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_X" Type="Double" Nullable="false" />
+    <Property Name="FLD_Z" Type="Double" Nullable="false" />
+    <Property Name="FLD_Y" Type="Double" Nullable="false" />
+    <Property Name="FLD_FACE0" Type="Double" Nullable="false" />
+    <Property Name="FLD_FACE" Type="Double" Nullable="false" />
+    <Property Name="FLD_MID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FLD_HP" Type="Int32" />
+    <Property Name="FLD_AT" Type="Int32" />
+    <Property Name="FLD_DF" Type="Int32" />
+    <Property Name="FLD_NPC" Type="Int32" />
+    <Property Name="FLD_NEWTIME" Type="Int32" />
+    <Property Name="FLD_LEVEL" Type="Int32" />
+    <Property Name="FLD_EXP" Type="Int32" />
+    <Property Name="FLD_AUTO" Type="Int32" />
+    <Property Name="FLD_BOSS" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_NPC_SL">
+    <Key>
+      <PropertyRef Name="FLD_INDEX" />
+      <PropertyRef Name="FLD_PID" />
+      <PropertyRef Name="FLD_X" />
+      <PropertyRef Name="FLD_Z" />
+      <PropertyRef Name="FLD_Y" />
+      <PropertyRef Name="FLD_FACE0" />
+      <PropertyRef Name="FLD_FACE" />
+      <PropertyRef Name="FLD_MID" />
+      <PropertyRef Name="FLD_BOSS" />
+    </Key>
+    <Property Name="FLD_INDEX" Type="Int32" Nullable="false" />
+    <Property Name="FLD_PID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_X" Type="Double" Nullable="false" />
+    <Property Name="FLD_Z" Type="Double" Nullable="false" />
+    <Property Name="FLD_Y" Type="Double" Nullable="false" />
+    <Property Name="FLD_FACE0" Type="Double" Nullable="false" />
+    <Property Name="FLD_FACE" Type="Double" Nullable="false" />
+    <Property Name="FLD_MID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FLD_HP" Type="Int32" />
+    <Property Name="FLD_AT" Type="Int32" />
+    <Property Name="FLD_DF" Type="Int32" />
+    <Property Name="FLD_NPC" Type="Int32" />
+    <Property Name="FLD_NEWTIME" Type="Int32" />
+    <Property Name="FLD_LEVEL" Type="Int32" />
+    <Property Name="FLD_EXP" Type="Int32" />
+    <Property Name="FLD_AUTO" Type="Int32" />
+    <Property Name="FLD_BOSS" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_OPEN">
+    <Key>
+      <PropertyRef Name="FLD_INDEX" />
+      <PropertyRef Name="FLD_PID" />
+      <PropertyRef Name="FLD_NAME" />
+      <PropertyRef Name="FLD_PIDX" />
+      <PropertyRef Name="FLD_NAMEX" />
+      <PropertyRef Name="FLD_NUMBER" />
+    </Key>
+    <Property Name="FLD_INDEX" Type="Int32" Nullable="false" />
+    <Property Name="FLD_PID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FLD_PIDX" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NAMEX" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FLD_NUMBER" Type="Int32" Nullable="false" />
+    <Property Name="FLD_MAGIC1" Type="Int32" />
+    <Property Name="FLD_MAGIC2" Type="Int32" />
+    <Property Name="FLD_MAGIC3" Type="Int32" />
+    <Property Name="FLD_MAGIC4" Type="Int32" />
+    <Property Name="FLD_MAGIC5" Type="Int32" />
+    <Property Name="FLD_FJ_觉醒" Type="Int32" />
+    <Property Name="FLD_FJ_进化" Type="Int32" />
+    <Property Name="FLD_FJ_中级附魂" Type="Int32" />
+    <Property Name="FLD_BD" Type="Int32" />
+    <Property Name="FLD_DAYS" Type="Int32" />
+    <Property Name="FLD_PP" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_SELL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_NPCNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FLD_NID" Type="Int64" />
+    <Property Name="FLD_INDEX" Type="Int32" />
+    <Property Name="FLD_PID" Type="Int64" />
+    <Property Name="FLD_MONEY" Type="Int64" />
+    <Property Name="FLD_MAGIC0" Type="Int32" />
+    <Property Name="FLD_MAGIC1" Type="Int32" />
+    <Property Name="FLD_MAGIC2" Type="Int32" />
+    <Property Name="FLD_MAGIC3" Type="Int32" />
+    <Property Name="FLD_MAGIC4" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBL_XWWL_VOME">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="map" Type="Int32" />
+    <Property Name="x" Type="Double" />
+    <Property Name="y" Type="Double" />
+    <Property Name="z" Type="Double" />
+    <Property Name="tomap" Type="Int32" />
+    <Property Name="tox" Type="Double" />
+    <Property Name="toy" Type="Double" />
+    <Property Name="toz" Type="Double" />
+  </EntityType>
+  <EntityType Name="XWWL_kill">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="txt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sffh" Type="Int32" />
+  </EntityType>
+  <EntityType Name="等级奖励">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="级别" Type="Int32" />
+    <Property Name="武勋" Type="Int32" />
+    <Property Name="元宝" Type="Int32" />
+    <Property Name="金钱" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="生命" Type="Int32" />
+    <Property Name="攻击" Type="Int32" />
+    <Property Name="防御" Type="Int32" />
+    <Property Name="回避" Type="Int32" />
+    <Property Name="命中" Type="Int32" />
+    <Property Name="内功" Type="Int32" />
+    <Property Name="套装ID" Type="Int32" />
+    <Property Name="单件物品" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="升天气功">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="人物职业8" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="气功ID" Type="Int32" />
+    <Property Name="物品ID" Type="Int32" />
+    <Property Name="气功名" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="人物职业1" Type="Int32" />
+    <Property Name="人物职业2" Type="Int32" />
+    <Property Name="人物职业3" Type="Int32" />
+    <Property Name="人物职业4" Type="Int32" />
+    <Property Name="人物职业5" Type="Int32" />
+    <Property Name="人物职业6" Type="Int32" />
+    <Property Name="人物职业7" Type="Int32" />
+    <Property Name="人物职业8" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="石头属性效果">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_ID" Type="Int32" />
+    <Property Name="FLD_百分比" Type="Int32" />
+    <Property Name="说明" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="武勋BUFF增幅">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_WXLEVEL" Type="Int32" />
+    <Property Name="FLD_武勋量" Type="Int32" />
+    <Property Name="FLD_HP" Type="Int32" />
+    <Property Name="FLD_AT" Type="Int32" />
+    <Property Name="FLD_DF" Type="Int32" />
+    <Property Name="FLD_HB" Type="Int32" />
+    <Property Name="FLD_MP" Type="Int32" />
+    <Property Name="FLD_MZ" Type="Int32" />
+    <Property Name="FLD_所有气功增加" Type="Int32" />
+  </EntityType>
+  <EntityType Name="物品兑换">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="需要物品" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="武勋" Type="Int32" />
+    <Property Name="元宝" Type="Int32" />
+    <Property Name="金钱" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="生命" Type="Int32" />
+    <Property Name="攻击" Type="Int32" />
+    <Property Name="防御" Type="Int32" />
+    <Property Name="回避" Type="Int32" />
+    <Property Name="命中" Type="Int32" />
+    <Property Name="内功" Type="Int32" />
+    <Property Name="套装ID" Type="Int32" />
+    <Property Name="单件物品" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="说明" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="制作物品列表">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="物品ID" Type="Int32" />
+    <Property Name="物品名" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="物品数量" Type="Int32" />
+    <Property Name="制作类型" Type="Int32" />
+    <Property Name="制作等级" Type="Int32" />
+    <Property Name="需要物品" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="装备检测">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="物品类型" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="物品类型" Type="Int32" Nullable="false" />
+    <Property Name="物品最高攻击值" Type="Int32" />
+    <Property Name="物品最高防御值" Type="Int32" />
+    <Property Name="物品最高生命值" Type="Int32" />
+    <Property Name="物品最高内功值" Type="Int32" />
+    <Property Name="物品最高命中值" Type="Int32" />
+    <Property Name="物品最高回避值" Type="Int32" />
+    <Property Name="物品最高武功值" Type="Int32" />
+    <Property Name="物品最高气功值" Type="Int32" />
+    <Property Name="物品最高附魂值" Type="Int32" />
+  </EntityType>
+  <EntityType Name="自定义转职属性">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FLD_JOB_LEVEL" Type="Int32" />
+    <Property Name="FLD_AT" Type="Int32" />
+    <Property Name="FLD_DF" Type="Int32" />
+    <Property Name="FLD_HP" Type="Int32" />
+    <Property Name="FLD_MP" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="PublicDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TBL_XWWL_BOSSDROP" EntityType="Self.TBL_XWWL_BOSSDROP" />
+    <EntitySet Name="TBL_XWWL_DROP" EntityType="Self.TBL_XWWL_DROP" />
+    <EntitySet Name="TBL_XWWL_DROP_GS" EntityType="Self.TBL_XWWL_DROP_GS" />
+    <EntitySet Name="TBL_XWWL_Gg" EntityType="Self.TBL_XWWL_Gg" />
+    <EntitySet Name="TBL_XWWL_ITEM" EntityType="Self.TBL_XWWL_ITEM" />
+    <EntitySet Name="TBL_XWWL_KONGFU" EntityType="Self.TBL_XWWL_KONGFU" />
+    <EntitySet Name="TBL_XWWL_MAP" EntityType="Self.TBL_XWWL_MAP" />
+    <EntitySet Name="TBL_XWWL_MONSTER" EntityType="Self.TBL_XWWL_MONSTER" />
+    <EntitySet Name="TBL_XWWL_NPC" EntityType="Self.TBL_XWWL_NPC" />
+    <EntitySet Name="TBL_XWWL_NPC_SL" EntityType="Self.TBL_XWWL_NPC_SL" />
+    <EntitySet Name="TBL_XWWL_OPEN" EntityType="Self.TBL_XWWL_OPEN" />
+    <EntitySet Name="TBL_XWWL_SELL" EntityType="Self.TBL_XWWL_SELL" />
+    <EntitySet Name="TBL_XWWL_VOME" EntityType="Self.TBL_XWWL_VOME" />
+    <EntitySet Name="XWWL_kill" EntityType="Self.XWWL_kill" />
+    <EntitySet Name="等级奖励" EntityType="Self.等级奖励" />
+    <EntitySet Name="升天气功" EntityType="Self.升天气功" />
+    <EntitySet Name="石头属性效果" EntityType="Self.石头属性效果" />
+    <EntitySet Name="武勋BUFF增幅" EntityType="Self.武勋BUFF增幅" />
+    <EntitySet Name="物品兑换" EntityType="Self.物品兑换" />
+    <EntitySet Name="制作物品列表" EntityType="Self.制作物品列表" />
+    <EntitySet Name="装备检测" EntityType="Self.装备检测" />
+    <EntitySet Name="自定义转职属性" EntityType="Self.自定义转职属性" />
+  </EntityContainer>
+</Schema>

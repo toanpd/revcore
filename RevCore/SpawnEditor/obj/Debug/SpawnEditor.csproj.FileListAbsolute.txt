@@ -1,0 +1,14 @@
+D:\Project\RevCore\trunk\SWorking\NLog.config
+D:\Project\RevCore\trunk\SWorking\SpawnEditor.exe.config
+D:\Project\RevCore\trunk\SWorking\SpawnEditor.exe
+D:\Project\RevCore\trunk\SWorking\SpawnEditor.pdb
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\SpawnEditor.csprojResolveAssemblyReference.cache
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\MainWindow.baml
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\MainWindow.g.cs
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\App.g.cs
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\SpawnEditor_MarkupCompile.cache
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\SpawnEditor.g.resources
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\SpawnEditor.Properties.Resources.resources
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\SpawnEditor.csproj.GenerateResource.Cache
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\SpawnEditor.exe
+D:\Project\RevCore\trunk\RevCore\SpawnEditor\obj\Debug\SpawnEditor.pdb

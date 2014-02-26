@@ -1,0 +1,13 @@
+D:\Project\RevCore\trunk\SWorking\NLog.config
+D:\Project\RevCore\trunk\SWorking\StatEditor.exe
+D:\Project\RevCore\trunk\SWorking\StatEditor.pdb
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\StatEditor.csprojResolveAssemblyReference.cache
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\MainWindow.baml
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\MainWindow.g.cs
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\App.g.cs
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\StatEditor_MarkupCompile.cache
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\StatEditor.g.resources
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\StatEditor.Properties.Resources.resources
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\StatEditor.csproj.GenerateResource.Cache
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\StatEditor.exe
+D:\Project\RevCore\trunk\RevCore\StatEditor\obj\x86\Debug\StatEditor.pdb
