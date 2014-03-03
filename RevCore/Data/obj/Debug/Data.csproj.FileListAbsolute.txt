@@ -4,3 +4,9 @@ D:\Project\RevCore\trunk\SWorking\Data.pdb
 D:\Project\RevCore\trunk\RevCore\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 D:\Project\RevCore\trunk\RevCore\Data\obj\Debug\Data.dll
 D:\Project\RevCore\trunk\RevCore\Data\obj\Debug\Data.pdb
+C:\Users\root\Documents\GitHub\revcore\SWorking\NLog.config
+C:\Users\root\Documents\GitHub\revcore\SWorking\Data.dll
+C:\Users\root\Documents\GitHub\revcore\SWorking\Data.pdb
+C:\Users\root\Documents\GitHub\revcore\RevCore\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\root\Documents\GitHub\revcore\RevCore\Data\obj\Debug\Data.dll
+C:\Users\root\Documents\GitHub\revcore\RevCore\Data\obj\Debug\Data.pdb

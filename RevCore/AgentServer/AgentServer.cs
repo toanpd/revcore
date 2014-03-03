@@ -69,7 +69,7 @@ namespace AgentServer
             InnerNetwork = new InnerNetworkListener("*", 22323, 20);
             InnerNetwork.BeginListening();
 
-            OuterNetwork = new OuterNetworkListener("*", 8484, 1000);
+            OuterNetwork = new OuterNetworkListener("*", 16000, 1000);
             OuterNetwork.BeginListening();
 
             InnerNetworkConnection.SendAllThread.Start();

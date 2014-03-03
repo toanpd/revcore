@@ -4,3 +4,9 @@ D:\Project\RevCore\trunk\SWorking\AgentServer.pdb
 D:\Project\RevCore\trunk\RevCore\AgentServer\obj\x86\Debug\AgentServer.csprojResolveAssemblyReference.cache
 D:\Project\RevCore\trunk\RevCore\AgentServer\obj\x86\Debug\AgentServer.exe
 D:\Project\RevCore\trunk\RevCore\AgentServer\obj\x86\Debug\AgentServer.pdb
+C:\Users\root\Documents\GitHub\revcore\RevCore\AgentServer\obj\x86\Debug\AgentServer.exe
+C:\Users\root\Documents\GitHub\revcore\RevCore\AgentServer\obj\x86\Debug\AgentServer.pdb
+C:\Users\root\Documents\GitHub\revcore\SWorking\NLog.config
+C:\Users\root\Documents\GitHub\revcore\SWorking\AgentServer.exe
+C:\Users\root\Documents\GitHub\revcore\SWorking\AgentServer.pdb
+C:\Users\root\Documents\GitHub\revcore\RevCore\AgentServer\obj\x86\Debug\AgentServer.csprojResolveAssemblyReference.cache
